@@ -878,7 +878,7 @@ TextLabel_18.TextWrapped = true
 
 -- Scripts:
 
-local function KYKX_fake_script() -- ButtonFrame.OfficeLoop 
+local function RSTTNN_fake_script() -- ButtonFrame.OfficeLoop 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
@@ -903,8 +903,8 @@ local function KYKX_fake_script() -- ButtonFrame.OfficeLoop
 			end
 		end
 end
-coroutine.wrap(KYKX_fake_script)()
-local function XDRPZ_fake_script() -- ButtonFrame.CafeLoop 
+coroutine.wrap(RSTTNN_fake_script)()
+local function GXACNDI_fake_script() -- ButtonFrame.CafeLoop 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
@@ -929,174 +929,204 @@ local function XDRPZ_fake_script() -- ButtonFrame.CafeLoop
 			end
 		end
 end
-coroutine.wrap(XDRPZ_fake_script)()
-local function PKRTPTX_fake_script() -- ButtonFrame.BMW-TP 
+coroutine.wrap(GXACNDI_fake_script)()
+local function AKHH_fake_script() -- ButtonFrame.BMW-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
 	local TB = MG.BMW
 	
 	TB.MouseButton1Click:Connect(function()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-21466, 30, 2064)
+		for count = 1, 5 do
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-21466, 30, 2064)
+			end
 		end)
 end
-coroutine.wrap(PKRTPTX_fake_script)()
-local function LCDQVV_fake_script() -- ButtonFrame.CLA-TP 
+coroutine.wrap(AKHH_fake_script)()
+local function UGHP_fake_script() -- ButtonFrame.CLA-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
 	local TB = MG.Classic
 	
 	TB.MouseButton1Click:Connect(function()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5135, 206, 27449)
+		for count = 1, 5 do
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5135, 206, 27449)
+			end
 		end)
 end
-coroutine.wrap(LCDQVV_fake_script)()
-local function QYJJV_fake_script() -- ButtonFrame.HON-TP 
+coroutine.wrap(UGHP_fake_script)()
+local function WHWW_fake_script() -- ButtonFrame.HON-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
 	local TB = MG.Honda
 	
 	TB.MouseButton1Click:Connect(function()
+		for count = 1, 5 do
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4300, 217, 28137)
+		end	
 		end)
 end
-coroutine.wrap(QYJJV_fake_script)()
-local function UJPTQ_fake_script() -- ButtonFrame.HYU-TP 
+coroutine.wrap(WHWW_fake_script)()
+local function QZPJC_fake_script() -- ButtonFrame.HYU-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
 	local TB = MG.Hyundai
 	
 	TB.MouseButton1Click:Connect(function()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-13023, 48, 1910)
+		for count = 1, 5 do
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-13023, 48, 1910)
+			end
 		end)
 end
-coroutine.wrap(UJPTQ_fake_script)()
-local function RMAK_fake_script() -- ButtonFrame.JOB-TP 
+coroutine.wrap(QZPJC_fake_script)()
+local function PQJEQTP_fake_script() -- ButtonFrame.JOB-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
 	local TB = MG["Job Change"]
 	
 	TB.MouseButton1Click:Connect(function()
+		for count = 1, 5 do
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-25208, 22, 8630)
+		end	
 		end)
 end
-coroutine.wrap(RMAK_fake_script)()
-local function HKOBAO_fake_script() -- ButtonFrame.KIA-TP 
+coroutine.wrap(PQJEQTP_fake_script)()
+local function ILHXRPB_fake_script() -- ButtonFrame.KIA-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
 	local TB = MG.Kia
 	
 	TB.MouseButton1Click:Connect(function()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-12589, 50, 1899)
+		for count = 1, 5 do
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-12589, 50, 1899)
+			end
 		end)
 end
-coroutine.wrap(HKOBAO_fake_script)()
-local function FMSZA_fake_script() -- ButtonFrame.LEX-TP 
+coroutine.wrap(ILHXRPB_fake_script)()
+local function JNYZB_fake_script() -- ButtonFrame.LEX-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
 	local TB = MG.Lexus
 	
 	TB.MouseButton1Click:Connect(function()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-21505, 22, 2316)
+		for count = 1, 5 do
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-21505, 22, 2316)
+			end
 	end)
 end
-coroutine.wrap(FMSZA_fake_script)()
-local function SIYY_fake_script() -- ButtonFrame.SHO-TP 
+coroutine.wrap(JNYZB_fake_script)()
+local function BIRC_fake_script() -- ButtonFrame.SHO-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
 	local TB = MG["MISC 1"]
 	
 	TB.MouseButton1Click:Connect(function()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-12333, 47, 1927)
+		for count = 1, 5 do
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-12333, 47, 1927)
+			end
 	end)
 end
-coroutine.wrap(SIYY_fake_script)()
-local function BRMKI_fake_script() -- ButtonFrame.MER-TP 
+coroutine.wrap(BIRC_fake_script)()
+local function HCDCYP_fake_script() -- ButtonFrame.MER-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
 	local TB = MG["Mercedes-Benz"]
 	
 	TB.MouseButton1Click:Connect(function()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-20680, 23, 1782)
+		for count = 1, 5 do
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-20680, 23, 1782)
+			end
 		end)
 end
-coroutine.wrap(BRMKI_fake_script)()
-local function CFEGIR_fake_script() -- ButtonFrame.MIT-TP 
+coroutine.wrap(HCDCYP_fake_script)()
+local function PPEUDD_fake_script() -- ButtonFrame.MIT-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
 	local TB = MG.mitsubishi
 	
 	TB.MouseButton1Click:Connect(function()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-21610, 23, 2491)
+		for count = 1, 5 do
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-21610, 23, 2491)
+			end
 		end)
 end
-coroutine.wrap(CFEGIR_fake_script)()
-local function ROOR_fake_script() -- ButtonFrame.WUL-TP 
+coroutine.wrap(PPEUDD_fake_script)()
+local function FIHCM_fake_script() -- ButtonFrame.WUL-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
 	local TB = MG.Wulling
 	
 	TB.MouseButton1Click:Connect(function()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-25661, 21, 8959)
+		for count = 1, 5 do
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-25661, 21, 8959)
+			end
 	end)
 end
-coroutine.wrap(ROOR_fake_script)()
-local function DSECD_fake_script() -- ButtonFrame.TRU-TP 
+coroutine.wrap(FIHCM_fake_script)()
+local function FRAMQD_fake_script() -- ButtonFrame.TRU-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
 	local TB = MG["Trucks And Bus"]
 	
 	TB.MouseButton1Click:Connect(function()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-14805, 50, 863)
+		for count = 1, 5 do
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-14805, 50, 863)
+			end
 	end)
 end
-coroutine.wrap(DSECD_fake_script)()
-local function VBKEFQR_fake_script() -- ButtonFrame.TOY-TP 
+coroutine.wrap(FRAMQD_fake_script)()
+local function FTRFTQ_fake_script() -- ButtonFrame.TOY-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
 	local TB = MG.Toyota
 	
 	TB.MouseButton1Click:Connect(function()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-21726, 23, 2661)
+		for count = 1, 5 do
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-21726, 23, 2661)
+			end
 		end)
 end
-coroutine.wrap(VBKEFQR_fake_script)()
-local function BKULUX_fake_script() -- ButtonFrame.PRE-TP 
+coroutine.wrap(FTRFTQ_fake_script)()
+local function IUQVJSB_fake_script() -- ButtonFrame.PRE-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
 	local TB = MG["PREMIUM-SHOW"]
 	
 	TB.MouseButton1Click:Connect(function()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-25497, 26, 15253)
+		for count = 1, 5 do
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-25497, 26, 15253)
+			end
 	end)
 end
-coroutine.wrap(BKULUX_fake_script)()
-local function YXXSGA_fake_script() -- ButtonFrame.MOD-TP 
+coroutine.wrap(IUQVJSB_fake_script)()
+local function PTDX_fake_script() -- ButtonFrame.MOD-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
 	local TB = MG.Modification
 	
 	TB.MouseButton1Click:Connect(function()
-		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-17330, -16, 18813)
+		for count = 1, 5 do
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-17330, -16, 18813)
+			end
 		
 	end)
 end
-coroutine.wrap(YXXSGA_fake_script)()
-local function OKSGP_fake_script() -- ScreenGui.Keybind 
+coroutine.wrap(PTDX_fake_script)()
+local function LMNU_fake_script() -- ScreenGui.Keybind 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	local MainFrame = script.Parent.MainFrame
@@ -1119,4 +1149,4 @@ local function OKSGP_fake_script() -- ScreenGui.Keybind
 	end
 	end)
 end
-coroutine.wrap(OKSGP_fake_script)()
+coroutine.wrap(LMNU_fake_script)()
