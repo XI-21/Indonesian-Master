@@ -94,6 +94,11 @@ local UICorner_33 = Instance.new("UICorner")
 local Shadow_17 = Instance.new("Frame")
 local UICorner_34 = Instance.new("UICorner")
 local TextLabel_18 = Instance.new("TextLabel")
+local ANTIAFK = Instance.new("TextButton")
+local UICorner_35 = Instance.new("UICorner")
+local Shadow_18 = Instance.new("Frame")
+local UICorner_36 = Instance.new("UICorner")
+local TextLabel_19 = Instance.new("TextLabel")
 
 --Properties:
 
@@ -876,9 +881,52 @@ TextLabel_18.TextScaled = true
 TextLabel_18.TextSize = 12.000
 TextLabel_18.TextWrapped = true
 
+ANTIAFK.Name = "ANTI-AFK"
+ANTIAFK.Parent = ButtonFrame
+ANTIAFK.BackgroundColor3 = Color3.fromRGB(45, 45, 45)
+ANTIAFK.BorderColor3 = Color3.fromRGB(200, 200, 200)
+ANTIAFK.BorderSizePixel = 0
+ANTIAFK.Position = UDim2.new(0.5, 0, 0.5, 0)
+ANTIAFK.Size = UDim2.new(0, 180, 0, 45)
+ANTIAFK.ZIndex = 2
+ANTIAFK.Font = Enum.Font.GothamSemibold
+ANTIAFK.Text = ""
+ANTIAFK.TextColor3 = Color3.fromRGB(200, 200, 200)
+ANTIAFK.TextScaled = true
+ANTIAFK.TextSize = 14.000
+ANTIAFK.TextWrapped = true
+
+UICorner_35.CornerRadius = UDim.new(1, 0)
+UICorner_35.Parent = ANTIAFK
+
+Shadow_18.Name = "Shadow"
+Shadow_18.Parent = ANTIAFK
+Shadow_18.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Shadow_18.BorderSizePixel = 0
+Shadow_18.Size = UDim2.new(1, 0, 1, 4)
+
+UICorner_36.CornerRadius = UDim.new(1, 0)
+UICorner_36.Parent = Shadow_18
+
+TextLabel_19.Parent = ANTIAFK
+TextLabel_19.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.BackgroundTransparency = 1.000
+TextLabel_19.BorderColor3 = Color3.fromRGB(27, 42, 53)
+TextLabel_19.BorderSizePixel = 0
+TextLabel_19.Position = UDim2.new(0.5, 0, 0.5, 0)
+TextLabel_19.Size = UDim2.new(1, -20, 1, -20)
+TextLabel_19.ZIndex = 2
+TextLabel_19.Font = Enum.Font.Ubuntu
+TextLabel_19.Text = "ANTI-AFK"
+TextLabel_19.TextColor3 = Color3.fromRGB(200, 200, 200)
+TextLabel_19.TextScaled = true
+TextLabel_19.TextSize = 12.000
+TextLabel_19.TextWrapped = true
+
 -- Scripts:
 
-local function HCXUA_fake_script() -- ButtonFrame.OfficeLoop 
+local function OLJTX_fake_script() -- ButtonFrame.OfficeLoop 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
@@ -903,8 +951,8 @@ local function HCXUA_fake_script() -- ButtonFrame.OfficeLoop
 			end
 		end
 end
-coroutine.wrap(HCXUA_fake_script)()
-local function GRJDEXJ_fake_script() -- ButtonFrame.CafeLoop 
+coroutine.wrap(OLJTX_fake_script)()
+local function DBAOZV_fake_script() -- ButtonFrame.CafeLoop 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
@@ -929,22 +977,24 @@ local function GRJDEXJ_fake_script() -- ButtonFrame.CafeLoop
 			end
 		end
 end
-coroutine.wrap(GRJDEXJ_fake_script)()
-local function GQESJQX_fake_script() -- ButtonFrame.BMW-TP 
+coroutine.wrap(DBAOZV_fake_script)()
+local function CPASS_fake_script() -- ButtonFrame.ANTI-AFK 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
 	local TB = MG.BMW
 	
 	TB.MouseButton1Click:Connect(function()
-		for count = 1, 5 do
-			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-21466, 30, 2064)
-			wait(0.2)
-			end
+		local vu = game:GetService("VirtualUser")
+		game:GetService("Players").LocalPlayer.Idled:connect(function()
+			vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+			wait(1)
+			vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		end)
 		end)
 end
-coroutine.wrap(GQESJQX_fake_script)()
-local function OKBWG_fake_script() -- ButtonFrame.CLA-TP 
+coroutine.wrap(CPASS_fake_script)()
+local function HHUWWW_fake_script() -- ButtonFrame.CLA-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
@@ -957,8 +1007,8 @@ local function OKBWG_fake_script() -- ButtonFrame.CLA-TP
 			end
 		end)
 end
-coroutine.wrap(OKBWG_fake_script)()
-local function GJOW_fake_script() -- ButtonFrame.HON-TP 
+coroutine.wrap(HHUWWW_fake_script)()
+local function SCFJ_fake_script() -- ButtonFrame.HON-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
@@ -971,8 +1021,8 @@ local function GJOW_fake_script() -- ButtonFrame.HON-TP
 		end	
 		end)
 end
-coroutine.wrap(GJOW_fake_script)()
-local function WOKX_fake_script() -- ButtonFrame.HYU-TP 
+coroutine.wrap(SCFJ_fake_script)()
+local function BUHZQ_fake_script() -- ButtonFrame.HYU-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
@@ -985,8 +1035,8 @@ local function WOKX_fake_script() -- ButtonFrame.HYU-TP
 			end
 		end)
 end
-coroutine.wrap(WOKX_fake_script)()
-local function GTRB_fake_script() -- ButtonFrame.JOB-TP 
+coroutine.wrap(BUHZQ_fake_script)()
+local function DMVSBG_fake_script() -- ButtonFrame.JOB-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
@@ -999,8 +1049,8 @@ local function GTRB_fake_script() -- ButtonFrame.JOB-TP
 		end	
 		end)
 end
-coroutine.wrap(GTRB_fake_script)()
-local function KQYXUCP_fake_script() -- ButtonFrame.KIA-TP 
+coroutine.wrap(DMVSBG_fake_script)()
+local function QEJH_fake_script() -- ButtonFrame.KIA-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
@@ -1013,8 +1063,8 @@ local function KQYXUCP_fake_script() -- ButtonFrame.KIA-TP
 			end
 		end)
 end
-coroutine.wrap(KQYXUCP_fake_script)()
-local function RRARTUN_fake_script() -- ButtonFrame.LEX-TP 
+coroutine.wrap(QEJH_fake_script)()
+local function VXZXS_fake_script() -- ButtonFrame.LEX-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
@@ -1027,8 +1077,8 @@ local function RRARTUN_fake_script() -- ButtonFrame.LEX-TP
 			end
 	end)
 end
-coroutine.wrap(RRARTUN_fake_script)()
-local function YECCXW_fake_script() -- ButtonFrame.SHO-TP 
+coroutine.wrap(VXZXS_fake_script)()
+local function UVAQGV_fake_script() -- ButtonFrame.SHO-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
@@ -1041,8 +1091,8 @@ local function YECCXW_fake_script() -- ButtonFrame.SHO-TP
 			end
 	end)
 end
-coroutine.wrap(YECCXW_fake_script)()
-local function XISRN_fake_script() -- ButtonFrame.MER-TP 
+coroutine.wrap(UVAQGV_fake_script)()
+local function KBLHQN_fake_script() -- ButtonFrame.MER-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
@@ -1055,8 +1105,8 @@ local function XISRN_fake_script() -- ButtonFrame.MER-TP
 			end
 		end)
 end
-coroutine.wrap(XISRN_fake_script)()
-local function NDHNCF_fake_script() -- ButtonFrame.MIT-TP 
+coroutine.wrap(KBLHQN_fake_script)()
+local function TSLWAWK_fake_script() -- ButtonFrame.MIT-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
@@ -1069,8 +1119,8 @@ local function NDHNCF_fake_script() -- ButtonFrame.MIT-TP
 			end
 		end)
 end
-coroutine.wrap(NDHNCF_fake_script)()
-local function YBFTCJQ_fake_script() -- ButtonFrame.WUL-TP 
+coroutine.wrap(TSLWAWK_fake_script)()
+local function QSREOLG_fake_script() -- ButtonFrame.WUL-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
@@ -1083,8 +1133,8 @@ local function YBFTCJQ_fake_script() -- ButtonFrame.WUL-TP
 			end
 	end)
 end
-coroutine.wrap(YBFTCJQ_fake_script)()
-local function IVJD_fake_script() -- ButtonFrame.TRU-TP 
+coroutine.wrap(QSREOLG_fake_script)()
+local function NOZQUP_fake_script() -- ButtonFrame.TRU-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
@@ -1097,8 +1147,8 @@ local function IVJD_fake_script() -- ButtonFrame.TRU-TP
 			end
 	end)
 end
-coroutine.wrap(IVJD_fake_script)()
-local function GKGFWY_fake_script() -- ButtonFrame.TOY-TP 
+coroutine.wrap(NOZQUP_fake_script)()
+local function QVDI_fake_script() -- ButtonFrame.TOY-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
@@ -1111,8 +1161,8 @@ local function GKGFWY_fake_script() -- ButtonFrame.TOY-TP
 		end
 		end)
 end
-coroutine.wrap(GKGFWY_fake_script)()
-local function GMKCNF_fake_script() -- ButtonFrame.PRE-TP 
+coroutine.wrap(QVDI_fake_script)()
+local function FZXPMZ_fake_script() -- ButtonFrame.PRE-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
@@ -1125,8 +1175,8 @@ local function GMKCNF_fake_script() -- ButtonFrame.PRE-TP
 			end
 	end)
 end
-coroutine.wrap(GMKCNF_fake_script)()
-local function IKQGAK_fake_script() -- ButtonFrame.MOD-TP 
+coroutine.wrap(FZXPMZ_fake_script)()
+local function YBKJA_fake_script() -- ButtonFrame.MOD-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
@@ -1140,8 +1190,22 @@ local function IKQGAK_fake_script() -- ButtonFrame.MOD-TP
 		
 	end)
 end
-coroutine.wrap(IKQGAK_fake_script)()
-local function WKXODU_fake_script() -- ScreenGui.Keybind 
+coroutine.wrap(YBKJA_fake_script)()
+local function FWYBWNO_fake_script() -- ButtonFrame.BMW-TP 
+	local script = Instance.new('LocalScript', ButtonFrame)
+
+	local MG = script.Parent
+	local TB = MG.BMW
+	
+	TB.MouseButton1Click:Connect(function()
+		for count = 1, 5 do
+			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-21466, 30, 2064)
+			wait(0.2)
+			end
+		end)
+end
+coroutine.wrap(FWYBWNO_fake_script)()
+local function NUSBYKB_fake_script() -- ScreenGui.Keybind 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	local MainFrame = script.Parent.MainFrame
@@ -1164,4 +1228,4 @@ local function WKXODU_fake_script() -- ScreenGui.Keybind
 	end
 	end)
 end
-coroutine.wrap(WKXODU_fake_script)()
+coroutine.wrap(NUSBYKB_fake_script)()
