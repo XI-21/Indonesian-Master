@@ -878,7 +878,7 @@ TextLabel_18.TextWrapped = true
 
 -- Scripts:
 
-local function AWLGN_fake_script() -- ButtonFrame.OfficeLoop 
+local function KYKX_fake_script() -- ButtonFrame.OfficeLoop 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
@@ -903,8 +903,8 @@ local function AWLGN_fake_script() -- ButtonFrame.OfficeLoop
 			end
 		end
 end
-coroutine.wrap(AWLGN_fake_script)()
-local function TQUH_fake_script() -- ButtonFrame.CafeLoop 
+coroutine.wrap(KYKX_fake_script)()
+local function XDRPZ_fake_script() -- ButtonFrame.CafeLoop 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
@@ -929,8 +929,8 @@ local function TQUH_fake_script() -- ButtonFrame.CafeLoop
 			end
 		end
 end
-coroutine.wrap(TQUH_fake_script)()
-local function YFONT_fake_script() -- ButtonFrame.BMW-TP 
+coroutine.wrap(XDRPZ_fake_script)()
+local function PKRTPTX_fake_script() -- ButtonFrame.BMW-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
@@ -940,8 +940,8 @@ local function YFONT_fake_script() -- ButtonFrame.BMW-TP
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-21466, 30, 2064)
 		end)
 end
-coroutine.wrap(YFONT_fake_script)()
-local function ACNLV_fake_script() -- ButtonFrame.CLA-TP 
+coroutine.wrap(PKRTPTX_fake_script)()
+local function LCDQVV_fake_script() -- ButtonFrame.CLA-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
@@ -951,8 +951,8 @@ local function ACNLV_fake_script() -- ButtonFrame.CLA-TP
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5135, 206, 27449)
 		end)
 end
-coroutine.wrap(ACNLV_fake_script)()
-local function PISFYHA_fake_script() -- ButtonFrame.HON-TP 
+coroutine.wrap(LCDQVV_fake_script)()
+local function QYJJV_fake_script() -- ButtonFrame.HON-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
@@ -962,8 +962,8 @@ local function PISFYHA_fake_script() -- ButtonFrame.HON-TP
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-4300, 217, 28137)
 		end)
 end
-coroutine.wrap(PISFYHA_fake_script)()
-local function CWPOWN_fake_script() -- ButtonFrame.HYU-TP 
+coroutine.wrap(QYJJV_fake_script)()
+local function UJPTQ_fake_script() -- ButtonFrame.HYU-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
@@ -973,8 +973,8 @@ local function CWPOWN_fake_script() -- ButtonFrame.HYU-TP
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-13023, 48, 1910)
 		end)
 end
-coroutine.wrap(CWPOWN_fake_script)()
-local function FNXJF_fake_script() -- ButtonFrame.JOB-TP 
+coroutine.wrap(UJPTQ_fake_script)()
+local function RMAK_fake_script() -- ButtonFrame.JOB-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
@@ -984,8 +984,8 @@ local function FNXJF_fake_script() -- ButtonFrame.JOB-TP
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-25208, 22, 8630)
 		end)
 end
-coroutine.wrap(FNXJF_fake_script)()
-local function PSDMH_fake_script() -- ButtonFrame.KIA-TP 
+coroutine.wrap(RMAK_fake_script)()
+local function HKOBAO_fake_script() -- ButtonFrame.KIA-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
@@ -995,8 +995,8 @@ local function PSDMH_fake_script() -- ButtonFrame.KIA-TP
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-12589, 50, 1899)
 		end)
 end
-coroutine.wrap(PSDMH_fake_script)()
-local function XFNJTD_fake_script() -- ButtonFrame.LEX-TP 
+coroutine.wrap(HKOBAO_fake_script)()
+local function FMSZA_fake_script() -- ButtonFrame.LEX-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
@@ -1006,8 +1006,8 @@ local function XFNJTD_fake_script() -- ButtonFrame.LEX-TP
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-21505, 22, 2316)
 	end)
 end
-coroutine.wrap(XFNJTD_fake_script)()
-local function HYZHRD_fake_script() -- ButtonFrame.SHO-TP 
+coroutine.wrap(FMSZA_fake_script)()
+local function SIYY_fake_script() -- ButtonFrame.SHO-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
@@ -1017,8 +1017,8 @@ local function HYZHRD_fake_script() -- ButtonFrame.SHO-TP
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-12333, 47, 1927)
 	end)
 end
-coroutine.wrap(HYZHRD_fake_script)()
-local function LPGAEXU_fake_script() -- ButtonFrame.MER-TP 
+coroutine.wrap(SIYY_fake_script)()
+local function BRMKI_fake_script() -- ButtonFrame.MER-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
@@ -1028,8 +1028,8 @@ local function LPGAEXU_fake_script() -- ButtonFrame.MER-TP
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-20680, 23, 1782)
 		end)
 end
-coroutine.wrap(LPGAEXU_fake_script)()
-local function JURCGIL_fake_script() -- ButtonFrame.MIT-TP 
+coroutine.wrap(BRMKI_fake_script)()
+local function CFEGIR_fake_script() -- ButtonFrame.MIT-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
@@ -1039,8 +1039,8 @@ local function JURCGIL_fake_script() -- ButtonFrame.MIT-TP
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-21610, 23, 2491)
 		end)
 end
-coroutine.wrap(JURCGIL_fake_script)()
-local function XOMA_fake_script() -- ButtonFrame.WUL-TP 
+coroutine.wrap(CFEGIR_fake_script)()
+local function ROOR_fake_script() -- ButtonFrame.WUL-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
@@ -1050,8 +1050,8 @@ local function XOMA_fake_script() -- ButtonFrame.WUL-TP
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-25661, 21, 8959)
 	end)
 end
-coroutine.wrap(XOMA_fake_script)()
-local function OUVVNK_fake_script() -- ButtonFrame.TRU-TP 
+coroutine.wrap(ROOR_fake_script)()
+local function DSECD_fake_script() -- ButtonFrame.TRU-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
@@ -1061,8 +1061,8 @@ local function OUVVNK_fake_script() -- ButtonFrame.TRU-TP
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-14805, 50, 863)
 	end)
 end
-coroutine.wrap(OUVVNK_fake_script)()
-local function OWSKF_fake_script() -- ButtonFrame.TOY-TP 
+coroutine.wrap(DSECD_fake_script)()
+local function VBKEFQR_fake_script() -- ButtonFrame.TOY-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
@@ -1072,8 +1072,8 @@ local function OWSKF_fake_script() -- ButtonFrame.TOY-TP
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-21726, 23, 2661)
 		end)
 end
-coroutine.wrap(OWSKF_fake_script)()
-local function XOPUR_fake_script() -- ButtonFrame.PRE-TP 
+coroutine.wrap(VBKEFQR_fake_script)()
+local function BKULUX_fake_script() -- ButtonFrame.PRE-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
@@ -1083,8 +1083,8 @@ local function XOPUR_fake_script() -- ButtonFrame.PRE-TP
 		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-25497, 26, 15253)
 	end)
 end
-coroutine.wrap(XOPUR_fake_script)()
-local function FEABTC_fake_script() -- ButtonFrame.MOD-TP 
+coroutine.wrap(BKULUX_fake_script)()
+local function YXXSGA_fake_script() -- ButtonFrame.MOD-TP 
 	local script = Instance.new('LocalScript', ButtonFrame)
 
 	local MG = script.Parent
@@ -1095,8 +1095,8 @@ local function FEABTC_fake_script() -- ButtonFrame.MOD-TP
 		
 	end)
 end
-coroutine.wrap(FEABTC_fake_script)()
-local function QXYAEO_fake_script() -- ScreenGui.Keybind 
+coroutine.wrap(YXXSGA_fake_script)()
+local function OKSGP_fake_script() -- ScreenGui.Keybind 
 	local script = Instance.new('LocalScript', ScreenGui)
 
 	local MainFrame = script.Parent.MainFrame
@@ -1119,4 +1119,4 @@ local function QXYAEO_fake_script() -- ScreenGui.Keybind
 	end
 	end)
 end
-coroutine.wrap(QXYAEO_fake_script)()
+coroutine.wrap(OKSGP_fake_script)()
